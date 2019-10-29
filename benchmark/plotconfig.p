@@ -5,7 +5,7 @@ set terminal png size 1024
 set output "result.png"
 
 # graph title
-set title "Peticiones frente a tiempo de respuesta"
+set title "Request VS Response time"
 
 # nicer aspect ratio for image size
 set size ratio 0.6
@@ -17,6 +17,6 @@ set grid y
 set xlabel "Peticiones"
 
 # y-axis label
-set ylabel "Tiempo de respuesta (ms)"
+set ylabel "Response Time (ms)"
 
-plot "output.tsv" using 9 smooth sbezier with lines title "App Test"
+plot "output.tsv" using 9 smooth sbezier with lines title "App Benchmark"
