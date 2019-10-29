@@ -1,0 +1,4 @@
+micronaut:
+  application:
+    port: 8080
+    name: micronaut-kotlin-graalvm

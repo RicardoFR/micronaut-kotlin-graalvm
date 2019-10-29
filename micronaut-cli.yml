@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: es.gloin
+---
+testFramework: kotlintest
+sourceLanguage: kotlin
